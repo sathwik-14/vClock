@@ -1,8 +1,32 @@
+body {
+  transition: all 0.3s ease-in-out;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body a:hover {
+  color: #0090dd;
+}
+
 .main {
   background-color: #f0f0f0;
 }
+.main .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.main .menu {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.main .menu:hover {
+  color: #0090dd;
+  transform: scale(1.01);
+}
 .main header {
-  position: fixed;
+  overflow: hidden;
   margin: 0;
   background-color: #0090dd;
   background-color: #3a3939;

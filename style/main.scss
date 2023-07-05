@@ -6,6 +6,7 @@ $backgroundColor: #f0f0f0;
     background-color: $backgroundColor;
 
     header {
+        position: fixed;
         margin: 0;
         background-color: $primaryColor;
         background-color: $secondaryColor;

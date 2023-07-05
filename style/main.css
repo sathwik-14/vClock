@@ -2,6 +2,7 @@
   background-color: #f0f0f0;
 }
 .main header {
+  position: fixed;
   margin: 0;
   background-color: #0090dd;
   background-color: #3a3939;

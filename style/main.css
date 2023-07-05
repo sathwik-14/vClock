@@ -1,0 +1,54 @@
+.main {
+  background-color: #f0f0f0;
+}
+.main header {
+  margin: 0;
+  background-color: #0090dd;
+  background-color: #3a3939;
+  color: white;
+  height: 100vh;
+  width: calc(100vw - 100px);
+}
+.main header .navbar-container {
+  width: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.main header .navbar-container .logo {
+  padding: 0.5rem 1rem;
+  height: 60px;
+  background-color: #313131;
+}
+.main header .navbar-container .logo img {
+  width: 150px;
+  height: 40px;
+}
+.main header .navbar-container .nav-links {
+  width: 100%;
+}
+.main header .navbar-container .nav-links ul {
+  width: 100%;
+  padding: 0;
+}
+.main header .navbar-container .nav-links ul li {
+  padding: 0 1rem;
+  font-size: 16px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  border-bottom: 1px solid rgb(82, 82, 82);
+  border-top: 1px solid rgb(82, 82, 82);
+}
+.main header .navbar-container .nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

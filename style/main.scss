@@ -4,6 +4,11 @@ $backgroundColor: #f0f0f0;
 
 .main {
     background-color: $backgroundColor;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
 
     header {
         position: fixed;
@@ -63,10 +68,37 @@ $backgroundColor: #f0f0f0;
                 }
             }
         }
+        transition: all 0.5s ease-in-out;
+    }
 
+    .body-container {
+        background: $primaryColor;
+        position: relative;
 
-
-
+        // margin-left: calc(100vw - 100px);
+        .top-bar {
+            height: 6vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .menu-icon {
+                img {
+                    width: 30px;
+                    margin: .5rem;
+                }
+            }
+            .text {
+                font-size: 20px;
+                font-weight: 600;
+                margin: .5rem;
+            }
+            .setting{
+                img {
+                    width: 30px;
+                    margin: .5rem;
+                }
+            }
+        }
     }
 
 }

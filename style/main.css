@@ -1,5 +1,9 @@
 .main {
   background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .main header {
   position: fixed;
@@ -9,6 +13,7 @@
   color: white;
   height: 100vh;
   width: calc(100vw - 100px);
+  transition: all 0.5s ease-in-out;
 }
 .main header .navbar-container {
   width: inherit;
@@ -52,4 +57,27 @@
 .main header .navbar-container .nav-links ul li a {
   text-decoration: none;
   color: white;
+}
+.main .body-container {
+  background: #0090dd;
+  position: relative;
+}
+.main .body-container .top-bar {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .body-container .top-bar .menu-icon img {
+  width: 30px;
+  margin: 0.5rem;
+}
+.main .body-container .top-bar .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+.main .body-container .top-bar .setting img {
+  width: 30px;
+  margin: 0.5rem;
 }/*# sourceMappingURL=main.css.map */

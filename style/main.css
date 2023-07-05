@@ -29,7 +29,7 @@ body a:hover {
   color: #0090dd;
   transform: scale(1.01);
 }
-.main header {
+.main #menu {
   overflow: hidden;
   margin: 0;
   background-color: #0090dd;
@@ -39,7 +39,7 @@ body a:hover {
   width: calc(100vw - 100px);
   height: 94vh;
 }
-.main header .navbar-container {
+.main #menu .navbar-container {
   width: 100%;
   position: absolute;
   top: 0;
@@ -50,14 +50,14 @@ body a:hover {
   display: flex;
   flex-direction: column;
 }
-.main header .navbar-container .nav-links {
+.main #menu .navbar-container .nav-links {
   width: 100%;
 }
-.main header .navbar-container .nav-links ul {
+.main #menu .navbar-container .nav-links ul {
   width: 100%;
   padding: 0;
 }
-.main header .navbar-container .nav-links ul li {
+.main #menu .navbar-container .nav-links ul li {
   width: 100%;
   padding: 0 1rem;
   font-size: 12px;
@@ -70,19 +70,19 @@ body a:hover {
   border-bottom: 1px solid rgb(82, 82, 82);
   border-top: 1px solid rgb(82, 82, 82);
 }
-.main header .navbar-container .nav-links ul li a {
+.main #menu .navbar-container .nav-links ul li a {
   text-decoration: none;
   color: white;
 }
-.main header .navbar-container .nav-links ul li img {
+.main #menu .navbar-container .nav-links ul li img {
   width: 20px;
   height: 20px;
 }
-.main header .navbar-container .nav-links ul li i {
+.main #menu .navbar-container .nav-links ul li i {
   font-size: 12px;
 }
 @media screen and (min-width: 768px) {
-  .main header {
+  .main #menu {
     width: 20%;
   }
 }

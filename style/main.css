@@ -50,15 +50,6 @@ body a:hover {
   display: flex;
   flex-direction: column;
 }
-.main header .navbar-container .logo {
-  padding: 0.5rem 1rem;
-  height: 60px;
-  background-color: #313131;
-}
-.main header .navbar-container .logo img {
-  width: 100px;
-  height: 25px;
-}
 .main header .navbar-container .nav-links {
   width: 100%;
 }
@@ -109,10 +100,8 @@ body a:hover {
   width: 20px;
   margin: 0.5rem;
 }
-.main .body-container .top-bar .text {
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0.5rem;
+.main .body-container .top-bar .logo img {
+  width: 80px;
 }
 .main .body-container .top-bar .setting img {
   width: 20px;

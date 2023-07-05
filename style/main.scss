@@ -41,6 +41,7 @@ body {
             transform: scale(1.01);
         }
     }
+
     header {
         overflow: hidden;
         margin: 0;
@@ -62,16 +63,6 @@ body {
             display: flex;
             flex-direction: column;
 
-            .logo {
-                padding: .5rem 1rem;
-                height: 60px;
-                background-color: #313131;
-
-                img {
-                    width: 100px;
-                    height: 25px;
-                }
-            }
 
             .nav-links {
                 width: 100%;
@@ -97,11 +88,13 @@ body {
                             text-decoration: none;
                             color: white;
                         }
-                        img{
+
+                        img {
                             width: 20px;
                             height: 20px;
                         }
-                        i{
+
+                        i {
                             font-size: 12px;
                         }
 
@@ -110,7 +103,7 @@ body {
             }
         }
 
-        @media screen and (min-width:768px){
+        @media screen and (min-width:768px) {
             width: 20%;
         }
 
@@ -133,12 +126,11 @@ body {
                 }
             }
 
-            .text {
-                font-size: 16px;
-                font-weight: 600;
-                margin: .5rem;
+            .logo{
+                img {
+                    width: 80px;
+                }
             }
-
             .setting {
                 img {
                     width: 20px;
